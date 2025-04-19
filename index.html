@@ -1,180 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tejaswara Reddy - Data Enthusiast</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .dark-mode {
-            background-color: #2c2c2c;
-            color: #fff;
-        }
-
-        /* Header */
-        header {
-            text-align: center;
-            padding: 50px;
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        header h1 {
-            font-size: 3em;
-        }
-
-        header p {
-            font-size: 1.2em;
-        }
-
-        header a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-
-        /* Projects Section */
-        #projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 30px;
-        }
-
-        .project {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .project img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        .project h3 {
-            margin-top: 15px;
-            font-size: 1.5em;
-        }
-
-        .project p {
-            margin: 15px 0;
-        }
-
-        .project a {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-
-        .project a:hover {
-            background-color: #45a049;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Dark Mode Toggle Button */
-        #darkModeToggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <title>Tejaswara Reddy Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
+<body class="is-preload">
 
-    <!-- Dark Mode Toggle -->
-    <button id="darkModeToggle">🌙 Dark Mode</button>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-    <!-- Header Section -->
-    <header>
-        <h1>Tejaswara Reddy</h1>
-        <p>Data Enthusiast | SQL | Python | Tableau</p>
-        <p><a href="https://www.linkedin.com/in/tejaswara-reddy-battula" target="_blank">LinkedIn</a> | <a href="https://github.com/Tejas9496" target="_blank">GitHub</a></p>
-    </header>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="project">
-            <img src="https://via.placeholder.com/600x400" alt="Project 1">
-            <h3>Data Analysis Project 1</h3>
-            <p>Description of the first project goes here. It can be an analysis or dashboard created using SQL and Python.</p>
-            <a href="https://github.com/Tejas9496/Project1" target="_blank">View Project</a>
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Tejaswara Reddy<br />Portfolio</h1>
+            <p>Data enthusiast skilled in SQL, Python, and Tableau for data analysis, leveraging insights from exploratory data analysis (EDA) to drive policy decisions, product innovation, and research initiatives. <a href="https://www.linkedin.com/in/tejaswara-reddy-battula" target="_blank">@Tejas</a></p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
         </div>
-        <div class="project">
-            <img src="https://via.placeholder.com/600x400" alt="Project 2">
-            <h3>Data Visualization with Tableau</h3>
-            <p>Description of a Tableau project showcasing insightful visualizations for business metrics and KPIs.</p>
-            <a href="https://github.com/Tejas9496/Project2" target="_blank">View Project</a>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Portfolio</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">EDA Projects</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/tejaswara-reddy-battula" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="#">Feature Engineering in Flight Data</a></h2>
+                    <p>In this project, we explore and clean the flight data, perform exploratory data analysis (EDA), and prepare the data for model generation.</p>
+                </header>
+                <a href="#" class="image main"><img src="images/Flightpricepred.png" alt="Flight price prediction project screenshot" /></a>
+                <ul class="actions special">
+                    <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/blob/main/Flight_price1.ipynb" class="button large">View Project</a></li>
+                </ul>
+            </article>
+
+            <!-- Posts -->
+            <section class="posts">
+                <article>
+                    <header>
+                        <h2><a href="#">Data Visualization - Tableau Projects</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Tableau_Project.PNG" alt="Tableau project visuals" /></a>
+                    <p>Description of the Tableau projects showcasing insightful visualizations for business metrics and KPIs.</p>
+                    <ul class="actions special">
+                        <li><a href="https://public.tableau.com/app/profile/tejaswar2880" class="button">View Project</a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <h2><a href="#">Adult Data EDA</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Adult_EDA.png" alt="Adult dataset EDA visualization" /></a>
+                    <p>Exploratory analysis of the Adult dataset to understand income distribution based on various demographic factors.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/blob/main/Adult_data_EDA.ipynb" class="button">View Project</a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <h2><a href="#">HR Analysis Case Study</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/HR-ANALYTICS.jfif" alt="HR analytics dashboard" /></a>
+                    <p>Analyzed HR data to identify factors affecting employee attrition and satisfaction.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/blob/main/HR%20Analysis%20case%20study.ipynb" class="button">View Project</a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <h2><a href="#">Titanic EDA</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Titanic.jfif" alt="Titanic dataset analysis" /></a>
+                    <p>Performed exploratory data analysis on the Titanic dataset to uncover survival patterns.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/blob/main/Titanic_EDA.ipynb" class="button">View Project</a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <h2><a href="#">Wine Quality EDA</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/WINE quality.jfif" alt="Wine quality EDA graphs" /></a>
+                    <p>Analyzed physicochemical properties of wine to determine factors influencing quality ratings.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/blob/main/WineQuality_EDA.ipynb" class="button">View Project</a></li>
+                    </ul>
+                </article>
+            </section>
+
         </div>
-        <div class="project">
-            <img src="https://via.placeholder.com/600x400" alt="Project 3">
-            <h3>Machine Learning Model</h3>
-            <p>Description of a project where machine learning models were built to predict outcomes based on historical data.</p>
-            <a href="https://github.com/Tejas9496/Project3" target="_blank">View Project</a>
+
+        <!-- Footer -->
+        <footer id="footer">
+            
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Location</h3>
+                    <p>Bangalore</p>
+                </section>
+                <section>
+                    <h3>Phone</h3>
+                    <p><a href="#">9391195915</a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="#">tejas.reddy9496@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://www.linkedin.com/in/tejaswara-reddy-battula" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        <li><a href="https://github.com/Tejas9496/Data-Analyst-EDA_Portifolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Tejaswara Reddy</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
         </div>
-    </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>Contact: tejaswara.reddy@example.com</p>
-        <p>© 2025 Tejaswara Reddy. All rights reserved.</p>
-    </footer>
+    </div>
 
-    <script>
-        const toggleButton = document.getElementById('darkModeToggle');
-        const body = document.body;
-
-        toggleButton.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-            if (body.classList.contains('dark-mode')) {
-                toggleButton.textContent = "☀️ Light Mode";
-            } else {
-                toggleButton.textContent = "🌙 Dark Mode";
-            }
-        });
-    </script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
